@@ -1,5 +1,3 @@
-#Accuracy reference: https://github.com/kshitijved/Support_Vector_Machine
-
 from sklearn import svm, datasets
 import matplotlib.pyplot as plt
 import numpy as np
