@@ -55,6 +55,9 @@ sudo apt install hping3 -y
 ## Running the Project
 To run the project, navigate to the cloned directory, and execute the scripts or commands as defined in your project documentation.
 
+### To Generate Dataset
+change `TEST_TYPE` in `topo.py` to normal or attack to generate data to generate packets accordingly make sure you need to change `controller.py` `APP_TYPE` to `0` to collect data and `1` to enable ddoss mitigate model
+
 ### Run the Controller
 To start the Ryu controller with your custom script, use the following command:
 ```bash
